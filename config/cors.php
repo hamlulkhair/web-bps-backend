@@ -3,7 +3,7 @@
 return [
     'paths' => ['api/*'], // Menentukan jalur API yang diizinkan
     'allowed_methods' => ['*'], // Mengizinkan semua metode HTTP (GET, POST, PUT, DELETE, dll.)
-    'allowed_origins' => ['http://localhost:5173' , 'https://web-bps-frontend-cb8d2d7um-hamlulkhairs-projects.vercel.app'], // Hanya izinkan domain ini untuk mengakses
+    'allowed_origins' => ['https://web-bps-frontend-nine.vercel.app'], // Hanya izinkan domain ini untuk mengakses
     'allowed_origins_patterns' => [], // Pola domain yang diperbolehkan (kosongkan jika tidak diperlukan)
     'allowed_headers' => ['*'], // Mengizinkan semua header yang diperlukan
     'exposed_headers' => [], // Tidak ada header yang dikeluarkan secara eksplisit
