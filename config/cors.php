@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'paths' => ['api/*'], // Menentukan jalur API yang diizinkan
+    'paths' => ['api/*', 'sanctum/csrf-cookie'], // Menentukan jalur API yang diizinkan
     'allowed_methods' => ['*'], // Mengizinkan semua metode HTTP (GET, POST, PUT, DELETE, dll.)
     'allowed_origins' => ['https://web-bps-frontend-nine.vercel.app'], // Hanya izinkan domain ini untuk mengakses
     'allowed_origins_patterns' => [], // Pola domain yang diperbolehkan (kosongkan jika tidak diperlukan)
